@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Ucapan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Konten page akan di-render di sini -->
+        <main id="page-content"></main>
+        
+        <!-- Bottom Navigation (seperti iPhone) -->
+        <nav id="bottom-nav">
+            <button data-page="gallery" class="nav-btn">
+                <span class="icon">🖼️</span>
+                <span>Galeri</span>
+            </button>
+            <button data-page="notes" class="nav-btn">
+                <span class="icon">📝</span>
+                <span>Notes</span>
+            </button>
+            <button data-page="camera" class="nav-btn">
+                <span class="icon">📷</span>
+                <span>Kamera</span>
+            </button>
+            <button data-page="music" class="nav-btn">
+                <span class="icon">🎵</span>
+                <span>Musik</span>
+            </button>
+        </nav>
+    </div>
+    
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
